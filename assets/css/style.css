@@ -125,6 +125,7 @@ footer {
     span {
         width: 100%;
         text-align: center;
+        margin: 0;
     }
     
     p {
@@ -142,5 +143,12 @@ footer {
         padding: 271px 0 0;
         font-size: 20px;
         
+    }
+    ul {
+        float: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 3px;
     }
 }

@@ -187,6 +187,7 @@ footer {
     span {
         width: 100%;
         text-align: center;
+        margin: 0;
     }
     
     div.row1 {
@@ -203,5 +204,12 @@ footer {
     }
     div.text-block {
         width: 250px;
+    }
+    ul {
+        float: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 3px;
     }
 }
